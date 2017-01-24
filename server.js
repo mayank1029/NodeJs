@@ -8,7 +8,7 @@ const PORT = 8080;
 // App
 const app = express();
 app.get('/', function (req, res) {
-  res.send('I am master branch');
+  res.send('I am releasing 8.0');
 }); 
 
 app.listen(PORT);
